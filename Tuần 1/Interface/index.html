@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Document</title>
+</head>
+<body>
+    <div class="title container">
+      <h1>BÀI TẬP TUẦN 1 - TODO LIST</h1>
+      <h3>ReactJS - TypeScript</h3>
+    </div>
+    <div class="tool container">
+      <div class="search">
+        <input type="text" placeholder="Search item name">
+        <button>Clear</button>
+      </div>
+      <div class="sort">
+        <select name="Sort by" id="sort">
+          <option value="1">Name - DECS</option>
+          <option value="2">Name - ASC</option>
+          <option value="3">Level - DECS</option>
+          <option value="4">Level - ASC</option>
+        </select>
+      </div>
+      <div class="additem">
+        <button class="togglebtn">Add item</button>
+        <div class="additem__content">
+          <input type="text" placeholder="Item name">
+          <select name="Sort by" id="sort">
+            <option value="1">Small</option>
+            <option value="2">Medium</option>
+            <option value="3">High</option>
+          </select>
+          <button class="submit">Submit</button>
+          <button class="cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+    <div class="table container">
+      <h4 class="lable">List item</h4>
+      <table>
+        <tr class="pri-row">
+          <th>ID</th>
+          <th>Name</th>
+          <th>Level</th>
+          <th>Action</th>
+        </tr>
+        <tr >
+          <td class="id">1</td>
+          <td class="name">Jame</td>
+          <td class="level"><span class="high">High</span></td>
+          <td class="action">
+            <div class="btngroup">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="id">2</td>
+          <td class="name">Heaven</td>
+          <td class="level"><span class="medium">Medium</span></td>
+          <td class="action">
+            <div class="btngroup">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="id">3</td>
+          <td class="name">Jame</td>
+          <td class="level"><span class="small">Small</span></td>
+          <td class="action">
+            <div class="btngroup">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="id">4</td>
+          <td class="name"><input type="text" value="Donkey"></td>
+          <td class="level">
+            <select name="Sort by" id="sort" value="1">
+              <option value="1">Small</option>
+              <option value="2">Medium</option>
+              <option value="3">High</option>
+            </select>
+          </td>
+          <td class="action">
+            <div class="btngroup">
+              <button class="cancel">Cancel</button>
+              <button class="save">Save</button>
+            </div>
+          </td>
+        </tr>
+      </table> 
+    </div>
+
+</body>
+</html>
