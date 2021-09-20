@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Reseach about ReactJS",
+    "level": "High"
+  },
+  {
+    "id": "2",
+    "name": "Reseach about TypeScript",
+    "level": "High"
+  },
+  {
+    "id": "3",
+    "name": "Writing report",
+    "level": "Small"
+  },
+  {
+    "id": "4",
+    "name": "Playing CSGO",
+    "level": "Small"
+  },
+  {
+    "id": "5",
+    "name": "Study English",
+    "level": "Medium"
+  },
+  {
+    "id": "6",
+    "name": "Listening to music",
+    "level": "Small"
+  }
+]
